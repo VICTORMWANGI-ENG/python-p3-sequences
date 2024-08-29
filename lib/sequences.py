@@ -9,6 +9,7 @@ def print_fibonacci(length):
     elif length == 2:
         print(fibonacci_list[0:2])
     elif length == 10:
-        print(fibonacci_list[0:10])       
-
-print_fibonacci(2)
+        print(fibonacci_list[0:10]) 
+    elif  length == length: 
+        print(fibonacci_list[0:length])
+print_fibonacci(9)
